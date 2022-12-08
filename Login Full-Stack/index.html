@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akira Santhakumaran</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <div class="inner-box">
+          <div class="forms-wrap">
+            <form  onsubmit="login()" id="loginForm" autocomplete="off" class="sign-in-form">
+              <div class="logo">
+                <h4>Akira Santhakumaran</h4>
+              </div>
+              <span id="error" style="color: rgb(186, 91, 91)"></span>
+              <div class="heading">
+                <h2>Se Connecter !</h2>
+                <h6>Bienvenue sur notre site test Akira Santhakumaran : Front-end & Backend</h6>
+              </div>
+              <div class="actual-form">
+                <div class="input-wrap">
+                    <span class="placeholder">Adresse Mail</span><br>
+                    <input id="email"  type="text" class="input" required />
+                </div>
+                <br>
+                <div class="input-wrap">
+                    <span class="placeholder">Mots de Passe</span><br>
+                    <input id="password"  type="password" class="input" required />
+                </div>
+                <br>
+                
+                <input type="submit" value="Se Connecter" class="sign-btn" />
+                <p class="text">
+                  Mots de passe oubliée
+                  <a href="#" onclick="forgotPass()">Avoir de l'aide</a>
+                  <br> * N'oubliez pas que votre mots de passe à une longueur de 6 Caractères.
+                </p>
+              </div>
+            </form>
+          </div>
+          </div>
+          <div class="carousel">
+            <div class="images-wrapper">
+              <img src="https://cdn.dribbble.com/users/1187278/screenshots/16762086/media/10ba6161c70f3edd67f34e229b62b852.gif" class="image img-1 show" alt="" />
+            </div>
+            <div class="text-slider">
+              <div class="text-wrap">
+                <div class="text-group">
+                  <h2>Github : Akira98000</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+    <script src="js/firebase.js"></script>
+    <script src="js/index.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,16 @@
+SAISIR VOS DONNEE FIREBASE :
+
+    CREE VOTRE BASE DE DONNEE ET COPIER LES ELEMENTS NECESSAIRE !
+
+
+var firebaseConfig = {
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
+};
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
